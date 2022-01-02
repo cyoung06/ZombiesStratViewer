@@ -1,0 +1,16 @@
+[
+{
+  "modid": "zombies_strat_viewer",
+  "name": "Hypixel Zombies Strat Viewer",
+  "description": "A mod that helps viewing zombies strat on hypixel zombies",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["syeyoung"],
+  "credits": "The Forge and FML guys, for making awesome api",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
