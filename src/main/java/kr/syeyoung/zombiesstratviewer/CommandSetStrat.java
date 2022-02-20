@@ -43,7 +43,7 @@ public class CommandSetStrat extends CommandBase implements ICommand {
                 HttpURLConnection huc = (HttpURLConnection) url.openConnection();
                 huc.setDoInput(true);
                 huc.connect();;
-                BufferedReader br = new BufferedReader(new InputStreamReader(huc.getInputStream()));
+                BufferedReader br = new BufferedReader(new InputStreamReader(huc.getInputStream(), "UTF8"));
                 String str;
                 while ((str = br.readLine()) != null) {
                     EventListener.stratLines.add(str);
